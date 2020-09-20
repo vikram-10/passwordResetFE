@@ -16,6 +16,7 @@ var fetcher=await fetch('https://passresetemail.herokuapp.com/enterEmail',{
    });
 var fetcherData=await fetcher.json();
 localStorage.setItem('randomString',fetcherData);
+alert("Password Reset Link Sent to Mail");
 }
 catch(error){
     alert("ERROR");
