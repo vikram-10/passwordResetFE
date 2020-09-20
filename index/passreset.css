@@ -1,0 +1,22 @@
+#bootstrapContainer{
+    text-align: center;
+    background-color: #DCDCDC;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: black 5px 5px;
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button{
+   font-size: large;
+   margin-bottom: 10px;
+}

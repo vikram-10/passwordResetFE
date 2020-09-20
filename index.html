@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Reset</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="passreset.css">
+    <link rel="stylesheet" href="index/passreset.css">
 </head>
 <body>
- 
+ <div class="container" id="bootstrapContainer">
+     <h1>
+       Password Reset
+     </h1>
+     <form id="emailIp" onsubmit="sendData()">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="emailinput">
+      <br>
+      <button class="btn btn-primary" id="submitButton">SUBMIT</button>
+     </form>
+ </div>
     
-<script src="passreset.js"></script>    
+<script src="index/passreset.js"></script>    
 </body>
 </html>
