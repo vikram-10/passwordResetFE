@@ -5,7 +5,7 @@ async function updatePassword(){
         pass:password.value
     }
     let randomString=localStorage.getItem('randomString');
-    let fetcher=await fetch(`http://localhost:3000/${randomString}/passReset`,{
+    let fetcher=await fetch(`https://passresetemail.herokuapp.com/${randomString}/passReset`,{
         method:'PUT',
         body:JSON.stringify(data),
         headers:{

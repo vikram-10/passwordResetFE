@@ -6,7 +6,7 @@ async function sendData(e){
     let data={
        email:emailInput.value
     }
-var fetcher=await fetch('http://localhost:3000/enterEmail',{
+var fetcher=await fetch('https://passresetemail.herokuapp.com/enterEmail',{
        method:'PUT',
        mode:'cors',
        headers:{
